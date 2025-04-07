@@ -5,8 +5,21 @@
   <title>Redirecting...</title>
   <script>
     const day = new Date().toLocaleString('en-US', { weekday: 'long' }).toLowerCase();
-    const url = `https://example.com/schedule?day=${day}`;
-    window.location.replace(url);
+
+    // Define your schedule links here
+    const links = {
+      monday: "https://example.com/schedule-monday-wednesday",
+      tuesday: "https://example.com/schedule-tuesday",
+      wednesday: "https://example.com/schedule-monday-wednesday",
+      thursday: "https://example.com/schedule-thursday",
+      friday: "https://example.com/schedule-friday"
+    };
+
+    if (links[day]) {
+      window.location.replace(links[day]);
+    } else {
+      document.body.innerHTML = `<p>No schedule link defined for today: ${day}</p>`;
+    }
   </script>
 </head>
 <body>
