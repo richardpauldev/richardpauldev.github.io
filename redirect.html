@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    const day = new Date().toLocaleString('en-US', { weekday: 'long' }).toLowerCase();
+    const url = `https://example.com/schedule?day=${day}`;
+    window.location.replace(url);
+  </script>
+</head>
+<body>
+  <p>Redirecting to today's schedule...</p>
+</body>
+</html>
