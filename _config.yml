@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Richard Paul"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.jpg"
   bio              : "CS graduate passionate about building things and helping others."
   location         : "Boston, MA"
   email            : richardpauldev@gmail.com
