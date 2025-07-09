@@ -24,4 +24,4 @@ Python, Java, JavaScript, TypeScript, React, Node.js, Flask, Spring Boot, AWS, D
 - Software Engineer Intern at FIRST Robotics (2023)
 - Technical Intern (DevOps) at Cisco (2022)
 
-[Download Resume](assets/Resume_Richard_Paul.pdf)
+[Download Resume](/assets/Resume_Richard_Paul.pdf)
