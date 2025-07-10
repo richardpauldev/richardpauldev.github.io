@@ -18,8 +18,8 @@ email: "richardpauldev@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   Personal resume and portfolio of Richard Paul.
 github_username: richardpauldev
-minimal_mistakes_skin: default
-search: true
+minimal_mistakes_skin: dark
+search: false
 
 # Build settings
 markdown: kramdown
