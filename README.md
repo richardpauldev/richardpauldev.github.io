@@ -1,27 +1,18 @@
-# Minimal Mistakes remote theme starter
+# Richard Paul Resume Website
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+This repository contains the source for my personal resume and portfolio site built with Jekyll and the Minimal Mistakes theme.
 
-Contains basic configuration to get you a site with:
+## Getting Started
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+1. Install Ruby and Bundler.
+2. Run `bundle install` to install dependencies.
+3. Run `bundle exec jekyll serve` to preview the site locally.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Site Structure
 
----
+- `index.html` – landing page with a short introduction and links to sections.
+- `about.md` – my background, skills, and a link to download my resume.
+- `projects.md` – highlights of selected projects.
+- `_data/navigation.yml` – navigation links.
 
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+Feel free to use this structure as a starting point for your own resume site.
