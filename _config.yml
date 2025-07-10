@@ -78,3 +78,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+feed: false
+atom_feed:
+  hide: true
