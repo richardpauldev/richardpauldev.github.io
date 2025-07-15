@@ -16,7 +16,6 @@ Welcome to my personal website. Here you'll find information about my skills, ex
 
 ## Site Sections
 
-- **About** - background information and contact links.
-- **Projects** - highlights of work I've done.
-- **Resume** - download a PDF copy of my resume.
-- **Contact** - ways to connect with me online.
+- [**About**](/about/) - background information and contact links.
+- [**Projects**](/projects/) - highlights of work I've done.
+- [**Resume**](/assets/Resume_Richard_Paul.pdf) - download a PDF copy of my resume.
