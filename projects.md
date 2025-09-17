@@ -4,6 +4,25 @@ title: "Projects"
 permalink: /projects/
 ---
 
+### Arcs Dice Calculator  
+An online hosted web project for calculating hits in the board game *Arcs*, with hundreds of users (based on Google Analytics).  
+
+**Tech:** Python, Jupyter Notebooks, Matplotlib, Streamlit  
+
+**Overview:**  
+I contributed the visualizations used on the site, building on the framework created by Cody Messick. My work included creating a **probability heatmap** and **marginal distributions graph**, which allow players to explore likely outcomes of dice rolls and relationships between different game events. These visualizations provide clear, interactive insights into probabilities that would otherwise be tedious to calculate by hand, making the tool valuable to both casual and competitive players.  
+
+**Key Features:**  
+- **Interactive Probability Calculator:** Input dice roll configurations (Skirmish, Assault, Raid, etc.) and instantly compute outcome probabilities.  
+- **Custom Queries:** Explore probabilities for specific outcomes such as minimum/maximum hits, self-damage, keys, or building damage.  
+- **Probability Dashboard:** Visualize distributions with a heatmap and marginal charts to quickly identify trends and correlations.  
+- **Outcome Summaries:** View the most likely results with frequencies and probabilities, displayed in both chart and table format.  
+
+**Live Demo:**  
+[https://arcs-calculator.streamlit.app/](https://arcs-calculator.streamlit.app/)  
+
+![Arcs Dice Calculator Screenshot](/assets/images/arcs-dice-calculator.png)  
+
 ### Agent Pairing Scheduler  
 A full-stack React, Flask, and MySQL application for agent scheduling and pairing automation.  
 **Tech:** React, Flask, MySQL, Docker, Python, JavaScript
