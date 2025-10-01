@@ -23,30 +23,6 @@ I contributed the visualizations used on the site, building on the framework cre
 
 ![Arcs Dice Calculator Screenshot](/assets/images/arcs-dice-calculator.png)  
 
-### Agent Pairing Scheduler  
-A full-stack React, Flask, and MySQL application for agent scheduling and pairing automation.  
-**Tech:** React, Flask, MySQL, Docker, Python, JavaScript
-
-**Overview:**  
-Designed and implemented a custom referral and scheduling platform for the Nancy Peterson RP Group at J Barrett & Company. The system allows users to add, edit, and manage real estate agents, automatically generating pairing schedules based on agent availability and recent partner history. Ensures no two agents are paired more than once within a 6-month window and only pairs agents with overlapping availability.
-
-**Key Features:**  
-- **Automated Pairing Algorithm:** Ensures optimal, fair agent pairings with a 6-month memory and day-matching constraints.  
-- **Role Management:** Intuitive CRUD interface for managing agent details and schedules.  
-- **Real-time Updates:** Responsive React frontend displays pairing schedules and agent data instantly.  
-- **Authentication & Security:** Supports role-based access and environment-based configuration.  
-- **PDF Schedule Export:** Generates custom PDF schedules for easy distribution and record-keeping.
-
-**Stack & Infrastructure:**  
-- **Frontend:** React (JavaScript), Tailwind CSS  
-- **Backend:** Flask (Python), REST API, PDF generation  
-- **Database:** MySQL, SQLAlchemy ORM  
-- **DevOps:** Docker support for streamlined deployment  
-- **Other:** Automated testing, environment-based configuration, and extensible architecture
-
-**Live Demo:**  
-[github.com/richardpauldev/rp_scheduler](https://github.com/richardpauldev/rp_scheduler)
-
 ### Congress Sentiment Analysis  
 A data science project applying NLP and visualization to historical U.S. congressional records.  
 **Tech:** Python, Jupyter Notebooks, NumPy, SciPy, Hugging Face Transformers
@@ -70,6 +46,32 @@ The scripts require access to a full congressional record dataset (not included 
 
 **Live Repo:**  
 [github.com/richardpauldev/congress-sentiment-analysis](https://github.com/richardpauldev/congress-sentiment-analysis)
+
+![Congressional Sentiment Graph](/assets/images/congress.png)  
+
+### Agent Pairing Scheduler  
+A full-stack React, Flask, and MySQL application for agent scheduling and pairing automation.  
+**Tech:** React, Flask, MySQL, Docker, Python, JavaScript
+
+**Overview:**  
+Designed and implemented a custom referral and scheduling platform for the Nancy Peterson RP Group at J Barrett & Company. The system allows users to add, edit, and manage real estate agents, automatically generating pairing schedules based on agent availability and recent partner history. Ensures no two agents are paired more than once within a 6-month window and only pairs agents with overlapping availability.
+
+**Key Features:**  
+- **Automated Pairing Algorithm:** Ensures optimal, fair agent pairings with a 6-month memory and day-matching constraints.  
+- **Role Management:** Intuitive CRUD interface for managing agent details and schedules.  
+- **Real-time Updates:** Responsive React frontend displays pairing schedules and agent data instantly.  
+- **Authentication & Security:** Supports role-based access and environment-based configuration.  
+- **PDF Schedule Export:** Generates custom PDF schedules for easy distribution and record-keeping.
+
+**Stack & Infrastructure:**  
+- **Frontend:** React (JavaScript), Tailwind CSS  
+- **Backend:** Flask (Python), REST API, PDF generation  
+- **Database:** MySQL, SQLAlchemy ORM  
+- **DevOps:** Docker support for streamlined deployment  
+- **Other:** Automated testing, environment-based configuration, and extensible architecture
+
+**Live Demo:**  
+[github.com/richardpauldev/rp_scheduler](https://github.com/richardpauldev/rp_scheduler)
 
 ### Security Implications of Automatic Dependency Management in Serverless Computing  
 Graduate research on the risks and benefits of automated dependency tools in modern cloud environments.  
